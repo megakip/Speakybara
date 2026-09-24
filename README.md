@@ -6,16 +6,18 @@ Het werkt op alles wat je ziet: een pdf, een plaatje, een foto van een brief,
 een spelletje, een menu, tekst die je niet kunt selecteren. Je hoeft niets te
 kopiëren en niets over te typen.
 
-> Dit is een **testversie**. Hij is nog niet af, en feedback is precies waarvoor
-> hij hier staat.
+> Dit is een **testversie**, voor Windows en nu ook voor de Mac. Hij is nog
+> niet af, en feedback is precies waarvoor hij hier staat:
+> [vertel hoe het ging](https://speakybara-website.vercel.app/nl/feedback).
 
 ## Downloaden
 
-👉 **[Download de laatste versie](../../releases/latest)** (Windows 10 of 11, 64-bits)
+👉 **[Download de laatste versie](../../releases/latest)** en klik onder **Assets** op:
 
-Klik daar op het `.zip`-bestand onder **Assets**.
+- `Speakybara-…-windows.zip` voor Windows 10 of 11 (64-bits)
+- `Speakybara-…-macos.zip` voor de Mac (macOS 14 of nieuwer, Mac met Apple-chip)
 
-## Installeren
+## Installeren op Windows
 
 1. Pak de zip helemaal uit (rechtermuisknop → **Alles uitpakken**).
    Rechtstreeks starten vanuit de zip werkt niet.
@@ -29,40 +31,55 @@ handtekeningcertificaat, niet omdat er iets mis is met dit bestand.
 Er wordt niets geïnstalleerd. Alles blijft in de map die je uitpakt: je
 instellingen, je geschiedenis en de stemmen. Map weggooien is alles weggooien.
 
+**Updaten:** pak de nieuwe zip uit in een nieuwe map en neem je eigen
+bestanden mee uit de oude: `config.json`, `history.json`, `annotations.json`,
+`words.json`, `pronunciations.json`, `usage.json`, `eigen-woorden.txt`,
+`english-words.txt` en de mappen `previews` en `voices`.
+
+## Installeren op de Mac
+
+1. Dubbelklik op de zip en sleep **Speakybara** naar de map **Apps**
+   (Programma's).
+2. Open Speakybara. macOS zegt dat het de app niet op malware kan
+   controleren, omdat Apple hem nog niet heeft ondertekend. Klik op **Gereed**.
+3. Open **Systeeminstellingen › Privacy en beveiliging**, scrol naar beneden
+   en klik bij Speakybara op **Toch openen**. Dat hoef je maar één keer te doen.
+4. Zet **Schermopname** aan als de app erom vraagt. Zonder die toestemming
+   ziet hij de tekst in je kader niet.
+
 ## Sneltoetsen
 
-| Toetsen | Wat het doet |
-| --- | --- |
-| `Ctrl` + `Alt` + `S` | Kader trekken en laten voorlezen |
-| `Ctrl` + `Alt` + `E` | Kader trekken en de tekst kopiëren |
-| `Ctrl` + `Alt` + `C` | Voorlezen wat op je klembord staat |
-| `Ctrl` + `Alt` + `P` | Pauze / verder |
-| `Ctrl` + `Alt` + `X` | Stoppen |
+| Windows | Mac | Wat het doet |
+| --- | --- | --- |
+| `Ctrl` + `Alt` + `S` | `Control` + `Option` + `S` | Kader trekken en laten voorlezen |
+| `Ctrl` + `Alt` + `E` | `Control` + `Option` + `E` | Kader trekken en de tekst kopiëren |
+| `Ctrl` + `Alt` + `C` | `Control` + `Option` + `C` | Voorlezen wat op je klembord staat |
+| `Ctrl` + `Alt` + `P` | `Control` + `Option` + `P` | Pauze / verder |
+| `Ctrl` + `Alt` + `X` | `Control` + `Option` + `X` | Stoppen |
 
 ## Wat er in deze versie zit
 
-- Tekstherkenning via Windows zelf, dus zonder internet.
-- Twee stemmen die op je eigen pc draaien: Nederlands en Engels.
-- Een leesvenster dat het woord meeloopt dat je hoort.
-- Geschiedenis van wat je hebt gepakt, met een miniatuur erbij.
-- De tekst komt ook meteen op je klembord.
+- Tekstherkenning die op je eigen computer draait, zonder internet.
+- Scrollshot: scroll in het kader om meer tekst te pakken dan op je scherm past.
+- Het kader blijft staan na het slepen: stel het bij en kies eronder of je
+  wilt voorlezen, kopiëren of een snelle actie gebruiken.
+- Een leespagina om mee te lezen, te markeren, notities te maken en op te
+  zoeken wat een woord betekent.
+- Stemmen die op je eigen computer draaien, en 37 talen om voor te lezen.
+  De app zelf is er in 36 talen.
 
 ## Wat nog niet af is
 
-- De app is niet ondertekend, vandaar de waarschuwing van Windows.
-- Alleen Nederlands en Engels zitten erin. Andere talen en de natuurlijke
-  stemmen van Google zitten er nog niet bij.
-- Windows moet de taal kennen die je laat voorlezen.
+- De apps zijn niet ondertekend, vandaar de waarschuwing van Windows en de
+  extra stap op de Mac.
+- De Mac-versie werkt alleen op een Mac met Apple-chip (M1 of nieuwer).
+- Speakybara Managed (de stemmen van Google zonder eigen sleutel) komt na
+  de testperiode.
+- Op Windows moet Windows de taal kennen die je laat voorlezen.
 
 ## Iets kapot? Iets raars?
 
-Open een [issue](../../issues) en schrijf op wat je deed en wat er gebeurde.
-Een schermafbeelding helpt enorm.
-
-Start de app niet op? Dan staat de reden in `screenspeak-error.log`, in dezelfde
-map. Plak de inhoud daarvan in je issue.
-
----
-
-Deze pagina bestaat alleen om de app te kunnen downloaden. De broncode staat er
-niet bij.
+Vertel het via het [feedbackformulier](https://speakybara-website.vercel.app/nl/feedback),
+of open een [issue](../../issues) en schrijf op wat je deed en wat er gebeurde.
+Een schermafbeelding helpt enorm. Start de app op Windows niet op, plak dan
+`screenspeak-error.log` uit de map erbij.
