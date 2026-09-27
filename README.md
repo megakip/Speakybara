@@ -8,7 +8,7 @@ kopiëren en niets over te typen.
 
 > Dit is een **testversie**, voor Windows en nu ook voor de Mac. Hij is nog
 > niet af, en feedback is precies waarvoor hij hier staat:
-> [vertel hoe het ging](https://speakybara-website.vercel.app/nl/feedback).
+> [vertel hoe het ging](https://speakybara.app/nl/feedback).
 
 ## Downloaden
 
@@ -56,6 +56,7 @@ bestanden mee uit de oude: `config.json`, `history.json`, `annotations.json`,
 | `Ctrl` + `Alt` + `C` | `Control` + `Option` + `C` | Voorlezen wat op je klembord staat |
 | `Ctrl` + `Alt` + `P` | `Control` + `Option` + `P` | Pauze / verder |
 | `Ctrl` + `Alt` + `X` | `Control` + `Option` + `X` | Stoppen |
+| — | `Control` + `Option` + `B` | Ondertitelbalk aan of uit (alleen Mac) |
 
 ## Wat er in deze versie zit
 
@@ -67,6 +68,8 @@ bestanden mee uit de oude: `config.json`, `history.json`, `annotations.json`,
   zoeken wat een woord betekent.
 - Stemmen die op je eigen computer draaien, en 37 talen om voor te lezen.
   De app zelf is er in 36 talen.
+- Tekst opschonen en snelle acties met AI: kies OpenAI, Google Gemini of
+  OpenRouter en gebruik je eigen sleutel.
 
 ## Wat nog niet af is
 
@@ -79,7 +82,7 @@ bestanden mee uit de oude: `config.json`, `history.json`, `annotations.json`,
 
 ## Iets kapot? Iets raars?
 
-Vertel het via het [feedbackformulier](https://speakybara-website.vercel.app/nl/feedback),
+Vertel het via het [feedbackformulier](https://speakybara.app/nl/feedback),
 of open een [issue](../../issues) en schrijf op wat je deed en wat er gebeurde.
 Een schermafbeelding helpt enorm. Start de app op Windows niet op, plak dan
 `screenspeak-error.log` uit de map erbij.
